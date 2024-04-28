@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+    // Your code here
+    console.log("Document is loaded");
+
 var swiper = new Swiper(".slide-content-landmarks", {
     slidesPerView: 3,
     spaceBetween: 25,
@@ -117,3 +121,5 @@ var swiper = new Swiper(".slide-content-landmarks", {
         },
     },
   });
+
+});
